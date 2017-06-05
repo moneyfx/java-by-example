@@ -33,5 +33,9 @@ public class ArrayListDemo {
             System.out.println(s);
         }
 
+        if (myList.contains("one")) {
+            System.out.println("list contains an element equal to one");
+        }
+
     }
 }
