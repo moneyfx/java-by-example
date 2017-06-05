@@ -2,7 +2,7 @@ package array;
 
 
 public class StringBuilderDemo {
-    public static void main(String[] args) {
+    public static void run(String[] args) {
         StringBuilder sb = new StringBuilder();
 
         System.out.println("string = " + sb.toString());

@@ -5,7 +5,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class HashMapDemo {
-    public static void main(String[] args) {
+    public static void run(String[] args) {
         Map<String, Integer> hm = new HashMap<String, Integer>();
 
         hm.put("key1", 1);
@@ -21,6 +21,10 @@ public class HashMapDemo {
 
         if (hm.get("key2") != null) {
             System.out.println("value of key2 is not null and is equal to " + hm.get("key2"));
+        }
+
+        if (hm.get("key3") == null) {
+            System.out.println("hm does not contain key3");
         }
     }
 }
