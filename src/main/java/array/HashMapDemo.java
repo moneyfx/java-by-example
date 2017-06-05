@@ -12,6 +12,7 @@ public class HashMapDemo {
         hm.put("key2", 2);
 
         System.out.println(hm);
+        System.out.println("size of hm = " + hm.size());
 
         if (hm.containsKey("key1")) {
             System.out.println("hm has key1 with value = " + hm.get("key1"));
