@@ -27,5 +27,11 @@ public class ArrayListDemo {
         myList.add(myList.size(), String.valueOf(myList.size()));
         System.out.println(myList);
 
+        System.out.println("looping:");
+        //loop through the list
+        for (String s: myList) {
+            System.out.println(s);
+        }
+
     }
 }
