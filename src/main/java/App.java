@@ -6,7 +6,8 @@ public class App {
         //HashMapDemo.run(args);
         //ArrayListDemo.run(args);
 
-        String[] stringForTest = {"mani", "test", "IGoti"};
-        StringIsUnique.run(stringForTest);
+        //String[] stringForTest = {"mani", "test", "IGoti"};
+        //StringIsUnique.run(stringForTest);
+        CheckPermutation.run(args);
     }
 }
