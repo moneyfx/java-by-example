@@ -9,6 +9,8 @@ public class App {
         //String[] stringForTest = {"mani", "test", "IGoti"};
         //StringIsUnique.run(stringForTest);
         //CheckPermutation.run(args);
-        URLify.run(args);
+        //URLify.run(args);
+
+        CharArrayAndString.run(args);
     }
 }
