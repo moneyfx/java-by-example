@@ -16,6 +16,9 @@ public class App {
         //String[] stringForTest = {"dad", "iTopiNonAvevanoNipoti", "mom", "program"};
         //PalindromeDemo.run(stringForTest);
 
-        OneCharDiff.run();
+        //OneCharDiff.run();
+
+        String[] stringForTest = {"aabcccccaaa"};
+        StringCompression.run(stringForTest);
     }
 }
