@@ -11,6 +11,9 @@ public class App {
         //CheckPermutation.run(args);
         //URLify.run(args);
 
-        CharArrayAndString.run(args);
+        //CharArrayAndString.run(args);
+
+        String[] stringForTest = {"dad", "iTopiNonAvevanoNipoti", "mom", "program"};
+        PalindromeDemo.run(stringForTest);
     }
 }
