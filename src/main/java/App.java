@@ -18,7 +18,9 @@ public class App {
 
         //OneCharDiff.run();
 
-        String[] stringForTest = {"aabcccccaaa"};
-        StringCompression.run(stringForTest);
+        //String[] stringForTest = {"aabcccccaaa"};
+        //StringCompression.run(stringForTest);
+
+        Array2D.run();
     }
 }
