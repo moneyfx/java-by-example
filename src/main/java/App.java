@@ -23,6 +23,8 @@ public class App {
 
         //Array2D.run();
 
-        ZeroMatrix.run();
+        //ZeroMatrix.run();
+
+        IsRotation.run();
     }
 }
