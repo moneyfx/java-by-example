@@ -1,8 +1,23 @@
 package array;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 
 public class ZeroMatrix {
+    public static void run() {
+        int[] arr = {0, 1, 2, 3, 4};
+
+        System.out.println(Arrays.toString(arr));
+
+        changeContentOfArray(arr);
+        System.out.println(Arrays.toString(arr));
+    }
+
+    public static void changeContentOfArray(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
+            arr[i] = arr[i] + 10;
+        }
+    }
 
     public static int[][] convert(int[][] matrix) {
         ArrayList<Integer> rows = new ArrayList<Integer>();

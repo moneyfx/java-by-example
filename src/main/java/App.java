@@ -21,6 +21,8 @@ public class App {
         //String[] stringForTest = {"aabcccccaaa"};
         //StringCompression.run(stringForTest);
 
-        Array2D.run();
+        //Array2D.run();
+
+        ZeroMatrix.run();
     }
 }
