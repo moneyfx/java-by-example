@@ -1,4 +1,5 @@
 import array.*;
+import linked.list.DeleteDups;
 
 public class App {
     public static void main(String[] args) {
@@ -25,6 +26,8 @@ public class App {
 
         //ZeroMatrix.run();
 
-        IsRotation.run();
+        //IsRotation.run();
+
+        DeleteDups.run();
     }
 }
