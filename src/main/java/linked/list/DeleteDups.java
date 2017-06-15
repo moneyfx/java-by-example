@@ -4,16 +4,6 @@ import java.util.*;
 
 public class DeleteDups {
 
-    private static class Node {
-        int data;
-        Node next;
-
-        public Node(int data) {
-            this.data = data;
-            next = null;
-        }
-    }
-
     public static void run() {
         Node test = new Node(2);
         test.next = new Node(4);

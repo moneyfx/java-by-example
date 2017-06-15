@@ -1,5 +1,6 @@
 import array.*;
 import linked.list.DeleteDups;
+import linked.list.KthToLastElement;
 
 public class App {
     public static void main(String[] args) {
@@ -28,6 +29,8 @@ public class App {
 
         //IsRotation.run();
 
-        DeleteDups.run();
+        //DeleteDups.run();
+
+        //KthToLastElement.run();
     }
 }
