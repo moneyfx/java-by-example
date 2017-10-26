@@ -12,6 +12,7 @@ public class OneCharDiff {
         System.out.println("pale " + " bake " + isOneWay("pale", "bake"));
     }
 
+    //detect if this is one way
     public static boolean isOneWay(String str1, String str2) {
         int numberOfDifference = 0;
 
